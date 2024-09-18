@@ -1,0 +1,142 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column; 
+}
+header{
+    display: flex;
+    justify-content: end;
+    height: 10%;
+    align-items: center;  
+}
+header a{
+    margin-right: 30px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #5e5e5e;
+    font-size: 17px;
+    
+}
+.menu{
+    width: 22px;
+    height: 22px;
+}
+.foto{
+    border-radius: 25px;
+    width: 38px;
+    height: 38px;  
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 76%;
+}
+.logo{
+    width: 270px;
+    margin-bottom: 30px;
+}
+footer{
+    height: 14%;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+    
+}
+.footer1{
+    flex:1; 
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #d9d9d9;  
+}
+.footer1 a{
+    margin-left: 20px;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex:1;
+    align-items: center;
+    border-top: 1px solid #d9d9d9;
+    
+}
+.ladoa{ 
+    margin-left: 20px;
+}
+.ladoa a{
+    margin-right: 20px;
+}
+.ladob{
+    margin-right: 20px;
+}
+.ladob a{
+    margin-left: 20px;
+}
+.input{
+    display: flex;;
+    width: 482px;
+    height: 40px;
+    border: 1px solid #cecece;
+    border-radius: 20px;
+    line-height: 40px;
+}
+.input:hover {
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+    border-radius: 50px;
+    transition:all 0.4s ease;
+}
+input{
+    width: 380px;
+    border: none;
+    outline: 0;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.access{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.access img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn button {
+    background-color: #f2f2f2;
+    border:1px solid #f2f2f2;
+    padding: 10px 16px 10px 16px;
+    margin: 30px 10px; 
+    font-size: 14px;
+    border-radius: 5px;
+    color:#5F6368;
+    cursor:pointer;
+}
+.btn button:hover {
+    border:1px solid #dadada;
+    box-shadow: 0px 1px 0px #CCC;
+    color:#000;
+}
+.container_meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
